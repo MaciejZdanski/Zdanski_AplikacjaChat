@@ -1,0 +1,46 @@
+*,html,body{
+    padding:0;
+    margin:0;
+}
+.fh {
+    height:100vh;
+    background-color:gray;
+    position:relative;
+}
+.center {
+    position:absolute;
+    text-align: center;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+}
+input {
+    display:block;
+    margin:20px 0;
+}
+button {
+    padding:10px 40px;
+    background-color:cyan;
+    border-radius:10px;
+    border:none;
+    margin:0 auto;
+}
+.dyfflex {
+    display:flex;
+    margin:0 auto;
+    width:max-content;
+}
+.sent {
+    margin:0 20px;
+}
+.message {
+    width:500px;
+    height:600px;
+    padding:10px 0;
+    overflow-y: scroll;
+    margin:0px auto;
+}
+
+.ms {
+    margin:20px 0px;
+}
